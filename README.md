@@ -6,56 +6,56 @@
 
 1. Создание репозитория в github
    
-<img width="974" height="504" alt="image" src="https://github.com/user-attachments/assets/5457c800-312e-447b-918a-f9d9f1327ec8" />
+<img width="1493" height="647" alt="image" src="https://github.com/user-attachments/assets/7d4b1be4-0ba0-4129-981d-432a319d6dee" />
 
 2. Клонирование репозитория, создание и использование виртуального окружения
 
-<img width="974" height="585" alt="image" src="https://github.com/user-attachments/assets/ee0aaf48-aa6b-4bc8-8d0e-42ffb38743da" />
+<img width="1494" height="896" alt="image" src="https://github.com/user-attachments/assets/a7afa4d4-d9c1-40a4-ac79-a6edfbc1c2bf" />
 
 3. Создание проекта с помощью mkdocs
 
-<img width="974" height="559" alt="image" src="https://github.com/user-attachments/assets/2669f413-ecc0-4e55-b4db-c07f21b922ef" />
+<img width="1500" height="855" alt="image" src="https://github.com/user-attachments/assets/fc970599-5725-4e0f-bace-e35654a26628" />
 
 4. Наполнение сайта контентом
 
-<img width="974" height="467" alt="image" src="https://github.com/user-attachments/assets/8ed337ba-6b83-4842-adb4-d48a3017b273" />
+<img width="1496" height="761" alt="image" src="https://github.com/user-attachments/assets/911b8181-3812-42b5-8154-76d2cd4870f0" />
 
 5. Сборка статического сайта
 
-<img width="974" height="582" alt="image" src="https://github.com/user-attachments/assets/b9ce77b7-af2f-45dd-b250-b37f52fb067f" />
+<img width="1492" height="896" alt="image" src="https://github.com/user-attachments/assets/44df63b9-f7bf-402d-9abc-5d2566cce79d" />
 
 6. Деплой сайта на github pages вручную (mkdocs gh-deploy)
 
-<img width="974" height="469" alt="image" src="https://github.com/user-attachments/assets/b75d9488-d412-4861-8187-275ec677e5cb" />
+<img width="1498" height="720" alt="image" src="https://github.com/user-attachments/assets/dac79d8e-68d5-4870-b36c-587d6ddca437" />
 
 7. Демонстрация сайта, опубликованного вручную
 
-<img width="974" height="494" alt="image" src="https://github.com/user-attachments/assets/d0bb81eb-5855-4976-b93c-0cd9ddb755ed" />
+<img width="1497" height="775" alt="image" src="https://github.com/user-attachments/assets/7c1a047d-5534-4844-9607-90ecfbceaac9" />
 
 8. Перевод github pages на деплой source github actions
    
-<img width="974" height="468" alt="image" src="https://github.com/user-attachments/assets/a451adb5-7e2b-436e-a2a7-11e26f7856c2" />
-
+<img width="1504" height="733" alt="image" src="https://github.com/user-attachments/assets/734821ba-0112-4237-af4d-3fe43e159dfa" />
 
 9. Создание github actions workflow для автоматического деплоя на github pages при пуше в main
 
-<img width="974" height="583" alt="image" src="https://github.com/user-attachments/assets/352605c1-c6b4-45d3-a5e9-fc906c626724" />
+<img width="1493" height="893" alt="image" src="https://github.com/user-attachments/assets/2a9593b2-887e-403d-8a61-c5eda71b0b92" />
 
 10. Добавление доп. контента на сайт для проверки актуальности
 
-<img width="974" height="585" alt="image" src="https://github.com/user-attachments/assets/ad424713-7079-42c2-879a-45d6f3a43969" />
+<img width="1498" height="898" alt="image" src="https://github.com/user-attachments/assets/7b4b2a4f-4dff-4f9a-bf25-f0e1c5d9d364" />
 
 11. Выполнение github action
 
-<img width="974" height="469" alt="image" src="https://github.com/user-attachments/assets/55dd9508-96a3-408b-8f78-7c472b396693" />
+<img width="1494" height="722" alt="image" src="https://github.com/user-attachments/assets/ccfa140c-1cdc-4a5d-97b6-68e209b1aba1" />
 
 12. Запись в deployments
 
-<img width="974" height="467" alt="image" src="https://github.com/user-attachments/assets/60c1d588-f5cb-434d-b087-fb21eab1f128" />
+<img width="1498" height="718" alt="image" src="https://github.com/user-attachments/assets/965f7514-4224-4f41-a7db-36f9e1290d52" />
 
 13. Автоматически опубликованная актуальная версия сайта с тестовым доп. контентом
 
-<img width="974" height="497" alt="image" src="https://github.com/user-attachments/assets/059e18bd-0ffc-4089-af3f-d651027bb105" />
+<img width="1499" height="768" alt="image" src="https://github.com/user-attachments/assets/169c1535-213d-4a7c-a89e-b9a77a695412" />
+
 
 
 
