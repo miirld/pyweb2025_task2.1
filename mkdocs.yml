@@ -1,1 +1,17 @@
-site_name: My Docs
+site_name: НИР 2
+site_description: Тема НИР - Выбор и обоснование критериев для сравнения асинхронных веб-фреймворков в экосистеме Python
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: grey
+    accent: indigo
+  icon:
+    logo: material/book-open-page-variant
+
+plugins: []
+
+nav:
+  - Главная: index.md
+  - Источники: references.md
