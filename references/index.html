@@ -1,0 +1,366 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Тема НИР - Выбор и обоснование критериев для сравнения асинхронных веб-фреймворков в экосистеме Python">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Источники - НИР 2</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="НИР 2" class="md-header__button md-logo" aria-label="НИР 2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5zM6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            НИР 2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Источники
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="НИР 2" class="md-nav__button md-logo" aria-label="НИР 2" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5zM6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5"/></svg>
+
+    </a>
+    НИР 2
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Источники
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">Список использованных источников</h1>
+<ol>
+<li>
+<p>Поташов А.В. Python для серверной части высоконагруженных веб-приложений // Научный аспект. - 2024. - №7 (32). - С. 2767-2775.</p>
+</li>
+<li>
+<p>Kumar V., Makkar R., Chopra V., Panesar J. Design &amp; Implementation of Jmeter Framework for Performance Comparison in PHP &amp; Python Web Applications // International Interdisciplinary Conference on Science, Technology, Engineering, Management, Pharmacy and Humanities. - 2017. - С. 85-94.</p>
+</li>
+<li>
+<p>Lei K., Ma Y. , Tan Z. Performance Comparison and Evaluation of Web Development Technologies in PHP, Python and Node.js // IEEE 17th International Conference on Computational Science and Engineering. - 2014. - С. 661-668.</p>
+</li>
+<li>
+<p>Макаров И.С., Ларин Д.В., Воробьева Е.Г., Емелин Д.П., Карташов Д.А. Влияние асинхронных и многопоточных моделей обработки запросов на производительность серверных веб-приложений // Программные системы и вычислительные методы. - 2025. - №1. - С. 13-20.</p>
+</li>
+<li>
+<p>Anjum N., Alam S. A Comparative Analysis on Widely used Web Frameworks to Choose the Requirement based Development Technology // International Advanced Research Journal in Science, Engineering and Technology. - 2019. - № 6(9). - С. 16-24.</p>
+</li>
+<li>
+<p>Kaluza M., Kalanj M., Vukelic B. A Comparison of Back-end Frameworks for Web Application Development // Zbornik Veleučilišta u Rijeci. - 2019. - №7. - С. 317-332.</p>
+</li>
+<li>
+<p>Ghimire D. Comparative study on Python web frameworks: Flask and Django: дис. Media Engineering: Helsinki, 2020. - 37 с.</p>
+</li>
+<li>
+<p>Волобуев Н.Г., Готская И.Б. Сравнение web-фреймворков Python // Альманах научных работ молодых ученых XLVI научной и учебно-методической конференции Университета ИТМО. - 2017. - №4. - С. 44-46.</p>
+</li>
+<li>
+<p>Мхоян А.В., Рудченко А.С., Троценко Ю.М. Преимущества и недостатки различных фреймворков для разработки серверной части веб-приложений // Международный научный журнал «Вестник науки». - 2025. - № 2(83). - С. 668-676.</p>
+</li>
+<li>
+<p>Eliseeva E., Khafizov I., Gosudarev I. Comparison of Web Frameworks on Python and Node.js Platforms // The Majorov International Conference on Software Engineering and Computer Systems. - 2020. - №11. - С. 96-100.</p>
+</li>
+<li>
+<p>ab - Apache HTTP server benchmarking tool - Apache HTTP Server Version 2.4 // APACHE HTTP SERVER PROJECT URL: https://httpd.apache.org/docs/2.4/programs/ab.html (дата обращения: 10.06.2025).</p>
+</li>
+<li>
+<p>Sharma M., Iyer V., Subramanian S., Shetty A. A Comparative Study on Load Testing Tools // International Journal of Innovative Research in Computer and Communication Engineering . - 2016. - №4 (2). - С. 1906-1912.</p>
+</li>
+<li>
+<p>Abda’u P., Susanto A., Supriyono A., Prasetyanti D. Perbandingan Kinerja Antara Gatling dan Apache JMeter pada Uji Beban RESTful API // Infotekmesin. - 2024. - №15. - С. 211-215.</p>
+</li>
+<li>
+<p>Kołtun A., Panczyk B. Comparative analysis of web application performance testing tools // Computer Sciences Institute Journal. - 2020. - №17. - С. 351-357.</p>
+</li>
+<li>
+<p>Duran J., Sakib M., Eisty N., Spezzano F. Evaluating Code Metrics in GitHub Repositories Related to Fake News and Misinformation // International Conference on Software Engineering Research, Management and Applications. - 2023. - №21. - С. 182-188.</p>
+</li>
+<li>
+<p>Liawatimena S., Abdurahman E., Gaol F., Warnars H., Soewito B., Abbas B., Trisetyarso A., Wibowo A. Django Web Framework Software Metrics Measurement Using Radon and Pylint // Indonesian Association for Pattern Recognition International Conference. - 2018. - С. 218-222.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
